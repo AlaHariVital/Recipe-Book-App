@@ -15,7 +15,7 @@ function displayRecipes(recipes) {
     recipeTitleEl.innerText = recipe.title;
 
     const recipeIngredientsEl = document.createElement('p');
-    recipeIngredientsEl.innerHTML = `<strong>INgredients : </strong> ${recipe.extendedIngredients
+    recipeIngredientsEl.innerHTML = `<strong>Ingredients : </strong> ${recipe.extendedIngredients
       .map((ingredient) => ingredient.original)
       .join(', ')} `;
 
